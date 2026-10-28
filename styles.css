@@ -249,3 +249,22 @@ tr:nth-child(even) {
     border: none;
     cursor: pointer;
 }
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
